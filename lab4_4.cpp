@@ -27,8 +27,9 @@ int main()
 {
 	int count = 0;
 	while(count < 10){
-		//Edit code here using printString1() and printString2()
-		
+		printString1("5",10-count-1);
+		printString2("6","9",count);
+		printString1("\n",1);
 		count++;
 	}
     return 0;
